@@ -22,3 +22,11 @@ class Vehiculo{
   Bool pago_diferido=0;
   String _dueño='';
 }
+
+void arrancar(){
+print("RUUUUUUN");
+}
+
+void frenar(){
+print("Stooooop");
+}
