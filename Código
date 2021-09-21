@@ -1,1 +1,24 @@
+void main{
+  final vehiculo= arrancar();
+  final vehiculo= frenar();
+  Vehiculo.marca='Toyota';
+  Vehiculo.precio=250;
+  Vehiculo.pago_diferido=0;
+  Vehiculo.dueño='Pancho';
+  
+  print(Vehiculo.marca);
+  print(Vehiculo.precio);
+  print(Vehiculo.pago_diferido);
+  print(Vehiculo.dueño);
+}
 
+
+
+
+
+class Vehiculo{
+  String _marca='';
+  int precio=0;
+  Bool pago_diferido=0;
+  String _dueño='';
+}
